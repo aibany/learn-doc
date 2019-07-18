@@ -188,7 +188,7 @@ docker login登录，按提示输入用户名和密码
 目录结构:
 
 libodeMacBook-Pro:ghost libo$ tree
-.
+```
 
 ├── data
 
@@ -205,6 +205,7 @@ libodeMacBook-Pro:ghost libo$ tree
     ├── Dockerfile
 
     └── nginx.conf
+```
     
 其中:docker-compose.yml:
 
