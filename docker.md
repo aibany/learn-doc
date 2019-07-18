@@ -1,5 +1,5 @@
 # Docker 笔记
-## 基础
+## 一、基础
 1，查看信息
 docker info
 
@@ -125,7 +125,7 @@ USER 指定用户
 VOLUME mount point
 
 
-## Volume
+##  二、Volume
 
 挂载bak目录到容器home：docker run -v /Users/libo/Desktop/bak/:/
 home -p 80:80 -d hello_docker2
@@ -150,7 +150,7 @@ docker exec -it epic_mayer /bin/bash 进入容器，在var/data目录可以看�
 
 该容器卷，可以跨多个容器，被多个容器共享
 
-## 镜像仓库registry
+## 三、镜像仓库registry
 术语
 
 host 宿主机
@@ -184,7 +184,7 @@ docker login登录，按提示输入用户名和密码
 提交后可能有缓存，search不到，可以用拉取：docker pull aibany/hello_docker2:0.0.1
 
 
-## docker-compose
+## 四、docker-compose
 目录结构:
 
 libodeMacBook-Pro:ghost libo$ tree
