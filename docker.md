@@ -191,19 +191,12 @@ libodeMacBook-Pro:ghost libo$ tree
 ```
 
 ├── data
-
 ├── docker-compose.yml
-
 ├── ghost
-
 │   ├── Dockerfile
-
 │   └── config.js
-
 └── nginx
-
     ├── Dockerfile
-
     └── nginx.conf
 ```
     
