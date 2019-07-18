@@ -189,13 +189,21 @@ docker login登录，按提示输入用户名和密码
 
 libodeMacBook-Pro:ghost libo$ tree
 .
+
 ├── data
+
 ├── docker-compose.yml
+
 ├── ghost
+
 │   ├── Dockerfile
+
 │   └── config.js
+
 └── nginx
+
     ├── Dockerfile
+
     └── nginx.conf
     
 其中:docker-compose.yml:
